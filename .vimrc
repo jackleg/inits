@@ -18,7 +18,7 @@ set ts=4
 set shiftwidth=4
 set softtabstop=4
 set nu          " show line number
-"set expandtab   " set expandtab
+set expandtab   " set expandtab
 set hlsearch
 set incsearch
 set paste
