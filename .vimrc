@@ -21,7 +21,7 @@ set nu          " show line number
 set expandtab   " set expandtab
 set hlsearch
 set incsearch
-set paste
+"set paste
 
 map ,m :! make %<<CR>
 map ,c :! gcc -Wall -o %< %<CR>
