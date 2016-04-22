@@ -35,3 +35,8 @@ if [ "$TERM" != "dumb" ]; then
 
 	export CLICOLOR=1
 fi
+
+# for CDH client setting
+# CDH에서 streaming을 할 때 필요한 환경변수
+export HADOOP_HOME=/data1/cdh/opt/cloudera/parcels/CDH
+export CDH_MR2_HOME=${HADOOP_HOME}
