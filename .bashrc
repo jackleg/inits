@@ -15,6 +15,7 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 alias grep='grep --color'
+alias python_ctags="ctags -R --fields=+l --languages=python -f ./tags ."
 
 export LESSCHARSET=utf-8
 export HISTSIZE=1000
